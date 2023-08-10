@@ -95,12 +95,6 @@ input::placeholder {
     width: 100%;
 }
 
-.jeans {
-    border: 2px solid #ccc;
-    width: 25%;
-    margin: 2rem
-}
-
 .productContent {
     border: 2px solid #ccc;
     width: 25%;
@@ -110,29 +104,91 @@ input::placeholder {
     height: 16rem;
     width: 11rem;
 }
-.shirt {
-    border: 2px solid #ccc;
-    width: 25%;
-    margin: 2rem
-
-
-}
-
-.shoes {
-    border: 2px solid #ccc;
-    width: 25%;
-    margin: 2rem
-
-}
 
 .shopNow {
     background-color: #606060;
     color: white;
-    font-size: 3rem;
+    font-size: 2rem;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 figcaption {
     text-align: center;
     font-size: 1.5rem;
+}
+
+.newsletterImg {
+    border-top: 2px solid #ccc;
+    border-bottom: 2px solid #ccc;
+    border-right: 2px solid #ccc;
+    width: 30%;
+}
+
+.newsletterImg figure {
+    width: inherit;
+}
+
+.newsletterImg figure img {
+    width: 23vw;
+}
+
+.newsletter {
+    border-top: 2px solid #ccc;
+    border-bottom: 2px solid #ccc;
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+.newsletterContent {
+    display: flex;
+}
+.mail {
+    width: 70%;
+    margin-right: 1rem;
+}
+
+.mailBtn {
+    width: 30%;
+    height: auto;
+}
+.newsletter_Email {
+    width: 100%;
+    font-size: 1.25rem;
+    height: 3rem;
+}
+
+.subscribe {
+    width: 100%;
+    background-color: #ccc;
+    color: white;
+    height: 3rem;
+}
+
+.headerForStore {
+    width: 30%;
+    border-bottom: 2px solid #ccc;
+    border-right: 2px solid #ccc;
+    padding: 2rem 0rem;
+
+}
+
+.headerForStore h1 {
+    margin: 2rem;
+}
+
+.headerForStore p {
+    padding: 2rem;
+}
+
+.products {
+    width: 70%;
+    border-bottom: 2px solid #ccc;
+}
+
+.browse {
+    margin-left: 2rem;
 }
