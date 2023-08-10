@@ -192,3 +192,13 @@ figcaption {
 .browse {
     margin-left: 2rem;
 }
+
+footer .menu {
+    text-align: center;
+    float: none;
+}
+
+.companyName {
+    text-align: center;
+    margin: 1rem;
+}
