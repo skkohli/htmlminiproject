@@ -287,3 +287,142 @@ hr{
     color: #606060;
     letter-spacing: 0.2rem;
 }
+@media (max-width:480px){
+    #page-one #links{
+        float: none;
+        display: inline-block;
+        padding: 0rem;
+        margin: 1.5rem 0rem;
+    }
+    #page-one a{
+        border:none;
+        border: 0.02rem solid #606060;
+        margin: 0.5rem;
+        padding: 0.5rem;
+    }
+    #page-one{
+        display: block;
+        width: 100%;
+        font-size: 0.5rem;
+        text-align: center;
+        margin: auto;
+    }
+    .input-icon{
+        border: 0.02rem solid #606060;
+        display: block;
+        width: 77%;
+        padding: 0rem;
+        margin: 0.5rem 0rem;
+        margin-left: 0.3rem;
+    }
+    .input{
+        padding: 0rem;
+        margin: 0rem 1.5rem;
+    }
+    .icon{
+        padding: 0rem;
+        margin: 0rem;
+        margin-top: 0.7rem;
+    }
+    #page-one #image{
+        width: 2rem;
+        margin-left: 1rem;
+    }
+    #page-one h1{
+        padding: 1rem;
+        margin: 0.5rem;
+        word-spacing: 0rem;
+    }
+    #images-one div{
+        width: 90%;
+        display: block;
+        margin: 1rem;
+    }
+    .page-two figure, #figure-jacket{
+        float: none;
+        width: 90%;
+        margin: 0.5rem 1rem;
+    }
+    .page-three{
+        padding: 0.5rem;
+    }
+    #newsletter, #div-email{
+        width: 90%;
+        float: none;
+        margin: 0.5rem 1rem;
+        padding: 0rem;
+    }
+    #user-email{
+        width: 90%;
+        margin-left: 0rem;
+    }
+    #div-saree{
+        float: none;
+        width: 100%;
+        padding: 0rem;
+        margin: 0rem;
+    }
+    #div-saree figure{
+        width: 100%;
+        height: 20rem;
+        margin: 0rem;
+        padding: 0rems;
+    }
+    #div-multiple{
+        float: left;
+        width: 100%;
+        margin-top:3rem;
+    }
+    #div-multiple figure{
+        width: 100%;
+        margin: 0rem;
+    }
+   .div-two{
+    margin-top: -3rem;
+   }
+   .page-five .heading{
+      word-spacing: 0.2rem;
+      letter-spacing: 0.06rem;
+   }
+   .page-five{
+    letter-spacing: 0.1rem;
+   }
+   .page-six hr{
+    width: 18.5rem;
+   }
+   .address{
+    float: none;
+    width: 90%;
+    margin: 0rem;
+    padding-left: 2rem;
+   }
+   .address img{
+    width: 90%;
+   }
+   .menus div{
+    float: left;
+    width: 19%;
+    display: block;
+    padding: 0.1rem;
+    border: 0.02rem solid #606060;
+    margin-right: -0.20rem;
+   }
+   .menus{
+    font-size: 0.8rem;
+    margin: -0.1rem;
+    padding: 0rem;
+    width: 100%;
+   }
+   .menus p{
+     font-size: 0.8rem;
+     margin:1rem 0rem;
+   }
+   .page-six{
+    padding: 0.5rem;
+   }
+   .companyName{
+    font-size: 1.5rem;
+    letter-spacing: 0.02rem;
+    word-spacing: 0.02rem;
+   }
+}
