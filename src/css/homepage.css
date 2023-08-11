@@ -1,0 +1,289 @@
+
+#image{
+    display: inline-block;
+    width: 2.5%;
+    height: 2rem;
+    margin-left: 5%;
+    margin-top: 0.3rem;
+    padding: 0.3rem;
+    float: left;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+.input-icon{
+    float: left;
+    border: 2px solid gray;
+    display: inline-block;
+    margin-left: 2%;
+    margin-top: 0.5rem;
+    height: 2rem;
+    width: 30%;
+    background-color: white;
+}
+.icon{
+    position: absolute;
+    padding: 0.3rem;
+    width: 1.2rem;
+    height: 1rem;
+    border: none;
+    color: gray;
+}
+.input{
+    width: 90%;
+    height: 90%;
+    border: none;
+    margin-left: 1.8rem;
+    font-family: sans-serif;
+}
+#links{
+    display: inline-block;
+    margin-top: 0.2rem;
+    margin-left: 10rem;
+    padding: 1rem;
+    padding-right: 0rem;
+}
+#links a{
+    padding-left:  1.5rem;
+    padding-right: 2.5rem;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+    margin: 0.5rem;
+    border-right: 0.1rem solid gray;
+    text-decoration: none;
+    color: gray;
+    font-family: sans-serif;
+}
+#links a:hover{
+    color: black;
+}
+.cart-icon{
+    
+    display: inline-block;
+    padding: 0.2rem;
+    margin-left: 1%;
+}
+.button{
+    padding: 0.5rem;
+    padding-right: 1rem;
+    font-family: sans-serif;
+    color: white;
+    background-color: #606060;
+}
+.button:hover{
+    background-color: rgb(70, 93, 154);
+}
+.cart{
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+#images-one{
+    text-align: center;
+}
+#images-one div{
+    width: 20%;
+    height: 10rem;
+    display: inline-block;
+    border: 0.1rem solid gray;
+    margin-right: 1.5rem;
+    margin-left: 1.5rem;
+}
+#imahes-one img{
+    width: 100%;
+    height: 100%;
+}
+#page-one h1{
+    padding: 5%;
+    padding-bottom: 1%;
+    font-size: 3rem;
+    text-align: center;
+    font-family: sans-serif;
+    word-spacing: 1.5rem;
+    color: #606060;
+}
+hr{
+    border-width: 0.15rem;
+    opacity: 30%;
+    color: #606060;
+    width: 22rem;
+    margin-bottom: 2.5rem;
+}
+#page-one{
+    text-align: center;
+    border-bottom: 0.1rem solid gray;
+}
+#shop-button{
+    padding: 0.8rem;
+    width: 15rem;
+    margin:  5rem 1rem;
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    background-color: #606060;
+    color: white;
+}
+#shop-button:hover{
+    background-color: rgb(70, 93, 154);
+}
+.page-two, .page-three, .page-four, .page-six{
+    padding: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 0.1rem solid gray;
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.page-two figure{
+    width: 40%;
+    float: left;
+    font-family: sans-serif;
+    font-size: 1rem;
+    text-align: center;
+    padding-bottom: 0.5rem;
+}
+.page-two img{
+    width: 100%;
+    height: 100%;
+    border: 0.1rem solid grey;
+}
+#figure-jacket{
+    margin-left: 6.5rem;
+}
+.page-two h1{
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+    font-size: 3rem;
+    text-align: center;
+    font-family: sans-serif;
+    word-spacing: 1.5rem;
+    color: #606060;
+}
+#newsletter{
+    width: 40%;
+    color: #606060;
+    float: left;
+    padding: 0.1rem;
+    margin-left: 7rem;
+    font-family: sans-serif;
+}
+.heading{
+    font-size: 2.5rem;
+    letter-spacing: 0.2rem;
+    margin-bottom: 0%;
+}
+#div-email{
+    width: 40%;
+    float: right;
+    margin:4rem 0rem 0rem 1rem;
+    padding: 1.5rem;
+    font-family: sans-serif;
+}
+#user-email{
+    margin: 1rem;
+    padding: 0.5rem;
+    width: 20rem;
+}
+#subscribe{
+    padding: 0.5rem;
+    width: 8rem;
+    color: #606060;
+}
+#div-saree{
+    float: left;
+    width: 30%;
+}
+#div-multiple{
+    float: right;
+    width: 60%;
+    margin-right: 2rem;
+}
+.page-four figure{
+    width: 40%;
+    float: left;
+    font-family: sans-serif;
+    font-size: 1rem;
+    padding-bottom: 0.8rem;
+}
+#div-saree figure{
+    width: 95%;
+    height: 37.3rem;
+    margin-left: 6rem;
+}
+.page-four #phone{
+    height: 16.3rem;
+}
+.div-one{
+    margin-bottom: 3rem;
+}
+.page-four img{
+    border: 0.1rem solid grey ;
+}
+.page-five{
+    color: #606060;
+    text-align: center;
+    font-family: sans-serif;
+    padding: 1rem;
+    padding-bottom: 2rem ;
+    border-bottom: 0.1rem solid grey ;
+}
+.address{
+    float: left;
+    width: 20%;
+    padding: 1rem;
+    margin-left: 6rem;
+}
+.menus{
+    float: right;
+    margin-top: 0.5rem;
+    margin-right: 2.5rem;
+    width: 60%;
+    height: 11rem;
+}
+.menus div{
+    float: left;
+    width: 15%;
+    padding: 0rem 1.5rem;
+    margin: 1rem;
+    margin-top: 0rem;
+}
+.address img{
+    width: 13rem;
+}
+.address hr{
+    width: 13rem;
+    margin-right: 15rem;
+    margin-bottom: 0rem;
+}
+.address p{
+    font-family: sans-serif;
+    color: #606060;
+}
+.menus p{
+    color: #606060;
+    margin-top: 0rem;
+    margin-bottom: 0.4rem;
+    font-family: sans-serif;
+    font-size: 1.2rem;
+}
+.menus a{
+    margin-top: -0.2rem;
+    display: block;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: #606060;
+}
+.menus a:hover{
+    color: black;
+}
+.companyName {
+    text-align: center;
+    margin: 1rem;
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    color: #606060;
+    letter-spacing: 0.2rem;
+}
