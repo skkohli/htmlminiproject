@@ -30,3 +30,20 @@
 
             alert('Product added successfully!');  
         };
+
+function login() {
+            const username = document.getElementById('username').value;
+            const password = document.getElementById('password').value;
+
+            // In a real-world scenario, you should validate the username and password against a secure backend/database.
+            // For this example, we'll use a simple hardcoded username and password.
+            const validUsername = 'admin';
+            const validPassword = 'password';
+
+            if (username === validUsername && password === validPassword) {
+                localStorage.setItem('adminLoggedIn', 'true');
+                window.location.href = 'addproduct.html'; // Redirect to the admin page
+            } else {
+                alert('Invalid username or password. Please try again.');
+            }
+        }
