@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Page</title>
+    <link rel="stylesheet" type="text/css" href="css/displayProduct.css" />
+</head>	
+<body>
+    <h1>Product Page</h1>
+    <div id="productList"></div>
+
+
+    <script>
+        function displayProducts() {
+            const productList = document.getElementById('productList');
+            productList.innerHTML = '';
+
+            const products = JSON.parse(localStorage.getItem('products')) || [];
+
+            products.forEach(product => {
+                const productCard = document.createElement('div');
+                productCard.classList.add('product-card');
+
+                const productDetails = document.createElement('div');
+                productDetails.classList.add('product-details');
+
+                productDetails.innerHTML = `
+                    <h2>${product.name}</h2>
+                    <p><strong>Price:</strong> ${product.price}</p>
+                    <p><strong>Description:</strong> ${product.description}</p>
+                    <p><strong>Image URL:</strong> <a href="${product.img}" target="_blank">${product.img}</a></p>
+                `;
+
+                const productActions = document.createElement('div');
+                productActions.classList.add('product-actions');
+
+                const editButton = document.createElement('button');
+                editButton.textContent = 'Edit';
+
+                const deleteButton = document.createElement('button');
+                deleteButton.textContent = 'Delete';
+                deleteButton.addEventListener('click', () => deleteProduct(product.id));
+
+                productActions.appendChild(editButton);
+                productActions.appendChild(deleteButton);
+
+                productCard.appendChild(productDetails);
+                productCard.appendChild(productActions);
+                productList.appendChild(productCard);
+            });
+        }
+
+        function deleteProduct(productId) {
+            const products = JSON.parse(localStorage.getItem('products')) || [];
+            const updatedProducts = products.filter(product => product.id !== productId);
+            localStorage.setItem('products', JSON.stringify(updatedProducts));
+            displayProducts();
+        }
+
+        document.addEventListener('DOMContentLoaded', () => {
+            displayProducts();
+        });
+    </script>
+</body>
+</html>
