@@ -203,14 +203,17 @@ hr{
 }
 .page-four figure{
     width: 40%;
+    text-align: center;
     float: left;
     font-family: sans-serif;
     font-size: 1rem;
-    padding-bottom: 0.8rem;
+    padding-bottom: 0.5rem;
+    margin-bottom: 3rem;
 }
 #div-saree figure{
     width: 95%;
-    height: 37.3rem;
+    text-align: center;
+    height: 34rem;
     margin-left: 6rem;
 }
 .page-four #phone{
@@ -349,6 +352,7 @@ hr{
     #newsletter, #div-email{
         width: 90%;
         float: none;
+        text-align: center;
         margin: 0.5rem 1rem;
         padding: 0rem;
     }
